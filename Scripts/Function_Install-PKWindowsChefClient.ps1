@@ -28,7 +28,7 @@ function Install-PKWindowsChefClient {
         v3.01.0000 - 2016-10-27 - Minor cosmetic updates
         v3.01.0001 - 2016-12-21 - Fixed examples (still used old name)
         v3.02.0001 - 2017-02-22 - Updated version options to default 12.18.31 
-        v3.03.0000 - 2017-09-01 - Changed ops-repo-1 reference to artifactory, changed semantic versioning 
+        v3.03.0000 - 2017-09-01 - Changed reference to artifactory, changed semantic versioning 
     
 .EXAMPLE
     PS C:\> Install-PKWindowsChefClient -ComputerName server-123 -DownloadMSIFile -ClientVersion '12.5.1' -Verbose
